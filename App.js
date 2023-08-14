@@ -7,7 +7,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import AllMovies from './screens/AllMovies';
 import MyMovies from './screens/MyMovies';
 import MovieDetail from './screens/MovieDetails';
-import { Colors } from './constansts/colors'
+import { Colors } from './constants/colors'
 import { Ionicons } from "@expo/vector-icons"
 import Map from './screens/Map';
 import { useEffect } from 'react';

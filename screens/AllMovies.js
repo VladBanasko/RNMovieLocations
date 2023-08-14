@@ -1,5 +1,5 @@
 import { SafeAreaView, ScrollView, StyleSheet, Text, View, FlatList } from "react-native"
-import { Colors } from "../constansts/colors"
+import { Colors } from "../constants/colors"
 import SearchForm from "../compomemts/UI/SearchForm"
 import { useEffect, useState } from "react"
 import MoviePreview from "../compomemts/MoviePreview"

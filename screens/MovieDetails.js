@@ -1,5 +1,5 @@
 import { Image, SafeAreaView, ScrollView, StyleSheet, Text, Alert } from 'react-native'
-import { Colors } from '../constansts/colors'
+import { Colors } from '../constants/colors'
 import { View } from 'react-native'
 import Button from '../compomemts/UI/Button'
 import ImagePicker from '../compomemts/ImagePicker'

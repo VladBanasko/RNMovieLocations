@@ -1,5 +1,5 @@
 import { Text, View, StyleSheet, Image, Pressable, Alert } from "react-native"
-import { Colors } from "../../constansts/colors"
+import { Colors } from "../../constants/colors"
 import { getMapPreviewFav } from "../../util/location"
 import { deleteMovie } from "../../util/database"
 

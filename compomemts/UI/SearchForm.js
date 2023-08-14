@@ -1,5 +1,5 @@
 import { Alert, StyleSheet, Text, TextInput, View } from "react-native"
-import { Colors } from "../../constansts/colors"
+import { Colors } from "../../constants/colors"
 import Button from "./Button"
 import { useState } from "react"
 

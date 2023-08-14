@@ -1,6 +1,6 @@
 import { StyleSheet, View, Alert, Image, Text } from "react-native"
 import Button from "./UI/Button"
-import { Colors } from "../constansts/colors"
+import { Colors } from "../constants/colors"
 import { getCurrentPositionAsync, useForegroundPermissions, PermissionStatus } from "expo-location"
 import { useEffect, useState } from "react"
 import { getAddress, getMapPreview } from "../util/location"

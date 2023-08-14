@@ -1,5 +1,5 @@
 import { Pressable, StyleSheet, Text } from "react-native"
-import { Colors } from "../../constansts/colors"
+import { Colors } from "../../constants/colors"
 import { Ionicons } from '@expo/vector-icons'
 
 

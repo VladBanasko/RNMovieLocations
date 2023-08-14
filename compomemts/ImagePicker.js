@@ -2,7 +2,7 @@ import { Alert, Image, StyleSheet, Text, View } from "react-native"
 import Button from "./UI/Button"
 import { useCameraPermissions, PermissionStatus, launchCameraAsync } from "expo-image-picker"
 import { useState } from "react"
-import { Colors } from "../constansts/colors"
+import { Colors } from "../constants/colors"
 
 
 // component to use around project , specificaly to take use camerta to take photos
