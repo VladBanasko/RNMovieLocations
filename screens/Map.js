@@ -1,7 +1,7 @@
 import { useCallback, useLayoutEffect, useState } from 'react'
 import { Alert, StyleSheet } from 'react-native'
 import MapView, { Marker } from 'react-native-maps'
-import IconButton from '../compomemts/UI/IconButton'
+import IconButton from '../components/UI/IconButton'
 
 
 // screen to manualy choose location to add

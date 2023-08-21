@@ -1,8 +1,8 @@
 import { SafeAreaView, ScrollView, StyleSheet, Text, View, FlatList } from "react-native"
 import { Colors } from "../constants/colors"
-import SearchForm from "../compomemts/UI/SearchForm"
+import SearchForm from "../components/UI/SearchForm"
 import { useEffect, useState } from "react"
-import MoviePreview from "../compomemts/MoviePreview"
+import MoviePreview from "../components/MoviePreview"
 import { searchMovies, popularMovies } from "../util/MovieDb"
 
 

@@ -4,7 +4,7 @@ import { useIsFocused } from '@react-navigation/native'
 import { fetchMovies } from '../util/database'
 import { FlatList } from 'react-native'
 import { Colors } from '../constants/colors'
-import MoviePreviewFav from '../compomemts/UI/MoviePreviewFav'
+import MoviePreviewFav from '../components/UI/MoviePreviewFav'
 
 function MyMovies({ navigation }) {
 
