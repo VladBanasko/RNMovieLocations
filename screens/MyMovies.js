@@ -29,9 +29,20 @@ function MyMovies({ navigation }) {
 
 
   function renderList(itemData) {
+
     // console.log(list)
+    console.log(itemData.item)
+
     return (
-      <MoviePreviewFav id={itemData.item.id} title={itemData.item.title} movieId={itemData.item.Movieid} poster={itemData.item.poster} image={itemData.item.imageUri} location={itemData.item.location} address={itemData.item.address}></MoviePreviewFav>
+      <MoviePreviewFav
+        id={itemData.item.id}
+        title={itemData.item.title}
+        movieId={itemData.item.Movieid}
+        poster={itemData.item.poster}
+        image={itemData.item.imageUri}
+        location={itemData.item.location}
+        address={itemData.item.address}
+      ></MoviePreviewFav>
     )
   }
 

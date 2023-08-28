@@ -14,7 +14,7 @@ import { insertMovie } from '../util/database'
 function MovieDetail({ route, navigation }) {
 
   const [name1, setName1] = useState(route.params.movieName)
-  const [id, setId] = useState(route.params.movieId)
+  const [movieid, setId] = useState(route.params.movieId)
   const [poster, setPoster] = useState(route.params.moviePoster)
   const [pickedLocation, setPickedLocation] = useState()
   const [selectedImage, setSelectedImage] = useState()
@@ -48,7 +48,7 @@ function MovieDetail({ route, navigation }) {
 
     }
 
-    const newMovie = new Movie(name1, poster, selectedImage, pickedLocation, id)
+    const newMovie = new Movie(name1, poster, selectedImage, pickedLocation, movieid)
 
     console.log(newMovie)
 

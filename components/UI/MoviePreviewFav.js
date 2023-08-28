@@ -5,7 +5,8 @@ import { deleteMovie } from "../../util/database"
 
 // tile for the list of saved movies location
 
-function MoviePreviewFav({ title, id, poster, image, location, address, movieId }) {
+function MoviePreviewFav({ id, title, poster, image, location, address, movieId }) {
+  // function MoviePreviewFav({ id, title, poster, address, image, location }) {
 
   let locationPreview = <Image style={styles.mapPreviewImage} source={{ uri: getMapPreviewFav(location.lat, location.lng) }}></Image>
 
