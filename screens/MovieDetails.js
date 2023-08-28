@@ -6,7 +6,7 @@ import ImagePicker from '../components/ImagePicker'
 import LocationPicker from '../components/LocationPicker'
 import { useCallback, useState, useLayoutEffect } from 'react'
 import IconButton from '../components/UI/IconButton'
-import { Movie } from '../models/location'
+import { Movie, MovieSave } from '../models/location'
 import { insertMovie } from '../util/database'
 
 // screen to add location and photos
@@ -31,11 +31,11 @@ function MovieDetail({ route, navigation }) {
     setPickedLocation(location)
   }, [])
 
-  function pressedHandler() {
-    console.log(pickedLocation)
-    console.log(selectedImage)
+  // function pressedHandler() {
+  //   console.log(pickedLocation)
+  //   console.log(selectedImage)
 
-  }
+  // }
 
   async function save(newMovie) {
     await insertMovie(newMovie)
@@ -48,7 +48,7 @@ function MovieDetail({ route, navigation }) {
 
     }
 
-    const newMovie = new Movie(name1, poster, selectedImage, pickedLocation, movieid)
+    const newMovie = new MovieSave(name1, poster, selectedImage, pickedLocation, movieid)
 
     console.log(newMovie)
 

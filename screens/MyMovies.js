@@ -30,9 +30,6 @@ function MyMovies({ navigation }) {
 
   function renderList(itemData) {
 
-    // console.log(list)
-    console.log(itemData.item)
-
     return (
       <MoviePreviewFav
         id={itemData.item.id}

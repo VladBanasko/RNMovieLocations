@@ -50,6 +50,7 @@ export function fetchMovies() {
       tx.executeSql('SELECT * FROM movies', [],
         (_, result) => {
 
+
           const movies = []
 
 
@@ -72,7 +73,7 @@ export function fetchMovies() {
 export function deleteMovie(id) {
   const promise = new Promise((resolve, reject) => {
     database.transaction((tx) => {
-      tx.executeSql('DELETE FROM movies WHERE movieId = ?', [id],
+      tx.executeSql('DELETE FROM movies WHERE id = ?', [id],
         (_, result) => {
 
           // console.log(movies)
